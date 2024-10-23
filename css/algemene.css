@@ -84,7 +84,7 @@ nav a.active_page {
     background-image: url(../img/p-1_s-2.png);
     background-repeat: no-repeat;
     width: 100vw;
-    height: 375px;  /*img height*/
+    height: 300px;  /*img height*/
     display: flex;
     justify-content: center;  /* Horizontally center */
     align-items: center; 
@@ -107,10 +107,81 @@ nav a.active_page {
     height: 233px;
     width: 217px;
 }
+.home main section img{
+    background-color: lightgrey;
+    height: 194px;
+    width: 178px;
+    margin-left: 2em;
+}
 
 /*  Recycle  */
+.recycle{
+    background-color: #1A6876;
+}
+.recycle main div:nth-of-type(1) {
+    background-color: #86c9d4;
+    padding-bottom: 1em;
+}
 
+.recycle main section:nth-of-type(1) {
+    background-color: #4AB3C6;
+    padding: 1em 0;
+}
 
+.recycle main div:nth-of-type(2){
+    background-image: url(../img/p-2_s-2.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 256px;  /*img height*/
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center; 
+}
+
+.recycle main div:nth-of-type(2) img{
+    background-color: lightgrey;
+    justify-content: center;
+    margin-left:5em;
+}
+
+.recycle main section:nth-of-type(2) {
+    background-color: #2F99AC;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.recycle main div img{
+    background-color: lightgrey;
+    height: 222px;
+    width: 170px;
+}
+
+.recycle main section:nth-of-type(3) {
+    background-color: #298899;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.recycle main section:nth-of-type(4) {
+    background-color: #1A6876;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.recycle main  a {
+    display: inline-block; 
+    padding: 1em 2.7em; 
+    margin-top:2em;
+    color: #13525E; 
+    font-weight: bold;
+    text-decoration: none; 
+    background-image: url('../img/bottle_button.png'); 
+    background-size: cover;
+}
 
 
 /*  Reuse  */
