@@ -7,7 +7,11 @@ body {
 
 p {
     margin:0;
-    padding: 2em;
+    padding: 1em 2em;
+}
+h1, h2 {
+    margin:0;
+    padding: 0 1.5em;
 }
 
 main img {
@@ -64,8 +68,45 @@ nav a.active_page {
 
 
 /*  Home  */
+.home{
+    background-color: #2F99AC;
+}
+.home main div:nth-of-type(1) {
+    background-color: #86c9d4;
+}
 
+.home main section:nth-of-type(1) {
+    background-color: #4AB3C6;
+    padding: 1em 0;
+}
 
+.home main div:nth-of-type(2){
+    background-image: url(../img/p-1_s-2.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 375px;  /*img height*/
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center; 
+}
+
+.home main div:nth-of-type(2) img{
+    background-color: lightgrey;
+    justify-content: center;
+    margin-left:5em;
+}
+
+.home main section:nth-of-type(2) {
+    background-color: #2F99AC;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.home main div img{
+    background-color: lightgrey;
+    height: 233px;
+    width: 217px;
+}
 
 /*  Recycle  */
 
