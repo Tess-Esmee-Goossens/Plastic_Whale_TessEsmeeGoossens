@@ -235,3 +235,60 @@ nav a.active_page {
     padding-bottom: 3em;
 }
 
+/* CSS for micro_plastics Background */
+.micro_plastic {
+    position: absolute; /* Allow positioning anywhere */
+    width: 7px; /* Size of micro_plastics */
+    height: 5px;
+    background-color: #D9D9D9;
+    border-radius: 50%; 
+    z-index: 0; /* Ensure micro_plastics stay behind other content */
+}
+
+/* Random positioning using nth-child */
+.micro_plastic:nth-child(1) { 
+    top: 660px; 
+    left: 20%; 
+}
+.micro_plastic:nth-child(2) { 
+    top: 750px; 
+    left: 95%; 
+    animation-duration: 1.5s; 
+    animation-delay: 0.3s; 
+}
+.micro_plastic:nth-child(3) { 
+    top: 1100px; 
+    left: 18%; 
+    animation-duration: 1.8s; 
+    animation-delay: 0.6s; 
+}
+.micro_plastic:nth-child(4) { 
+    top: 1305px; 
+    left: 95%; 
+    animation-duration: 2s; 
+    animation-delay: 0.2s; 
+}
+.micro_plastic:nth-child(5) { 
+    top: 1600px; 
+    left: 50%; 
+    animation-duration: 1.4s; 
+    animation-delay: 0.5s; 
+}
+.micro_plastic:nth-child(6) { 
+    top: 1638px; 
+    left: 10%; 
+    animation-duration: 1.9s; 
+    animation-delay: 0.7s; 
+}
+.micro_plastic:nth-child(7) { 
+    top: 1970px; 
+    left: 75%; 
+    animation-duration: 1.6s; 
+    animation-delay: 0.1s; 
+}
+.micro_plastic:nth-child(8) { 
+    top: 2400px; 
+    left: 90%; 
+    animation-duration: 2.2s; 
+    animation-delay: 0.4s; 
+}
