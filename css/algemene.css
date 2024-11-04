@@ -39,7 +39,23 @@ footer {
     background-image: url(../img/footer.png);
     background-repeat: no-repeat;
     width: 100vw;
-    padding-top: 49.87%;
+    padding-top: 15%;
+    background-size: cover;  /*Ensures the background image covers the full area */
+    
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+    color: #13525E;
+}
+footer p{
+    padding:0.2em
+}
+
+footer div {
+    margin: 10px 0; /* Adds some spacing between the divs */
 }
 
 /*  Nav  */
