@@ -1,16 +1,17 @@
 body {
- margin:0 ;
- font-size: 18px;
- font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
- color: #ffffff;
+    margin: 0 ;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #ffffff;
 }
 
 p {
-    margin:0;
+    margin: 0;
     padding: 1em 2em;
 }
+
 h1, h2 {
-    margin:0;
+    margin: 0;
     padding: 0 1.5em;
 }
 
@@ -20,6 +21,11 @@ main img {
     margin: 0;
     padding: 0;
 }
+
+.first-paragraph{
+    margin-top: 430px;
+}
+
 
 /*  Header  */
 header {
@@ -34,15 +40,12 @@ header img{
     padding-left: 1em;
 }
 
+
 /*  Footer  */
 footer {
-    background-image: url(../img/footer.png);
-    background-repeat: no-repeat;
-    width: 100vw;
-    padding-top: 15%;
-    background-size: cover;  /*Ensures the background image covers the full area */
-    
     /* Center content */
+    margin-top: 60px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center vertically */
@@ -50,13 +53,15 @@ footer {
     text-align: center;
     color: #13525E;
 }
+
 footer p{
-    padding:0.2em
+    padding: 0.2em;
 }
 
 footer div {
     margin: 10px 0; /* Adds some spacing between the divs */
 }
+
 
 /*  Nav  */
 nav {
@@ -77,6 +82,7 @@ nav a {
     font-weight: bold;
     color: #4AB3C6;
 }
+
 nav a:visited {
     color: #4AB3C6;
 }
@@ -88,202 +94,93 @@ nav a.active_page {
 
 /*  Home  */
 .home{
-    background-color: #2F99AC;
-}
-.home main div:nth-of-type(1) {
-    background-color: #86c9d4;
+    background-image: url(../img/background_home.png);
 }
 
-.home main section:nth-of-type(1) {
-    background-color: #4AB3C6;
-    padding: 1em 0;
-}
-
-.home main div:nth-of-type(2){
-    background-image: url(../img/p-1_s-2.png);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 300px;  /*img height*/
-    display: flex;
-    justify-content: center;  /* Horizontally center */
-    align-items: center; 
-}
-
-.home main div:nth-of-type(2) img{
-    justify-content: center;
-    margin-left:5em;
-}
-
-.home main section:nth-of-type(2) {
-    background-color: #2F99AC;
-    padding-top: 1em;
-    padding-bottom: 3em;
-}
-
-.home main div img{
+.img-paling{
     height: 233px;
     width: 217px;
+    margin-left: 40%;
 }
-.home main section img{
+
+.content-plastic-in-lichaam{
+    margin-top: 210px;
+}
+
+.content-plastic-schade{
+    margin-top: 90px;
+}
+
+.img-vis-vast{
     height: 194px;
     width: 178px;
     margin-left: 2em;
 }
 
+
 /*  Recycle  */
 .recycle{
-    background-color: #1A6876;
-}
-.recycle main div:nth-of-type(1) {
-    background-color: #86c9d4;
-    padding-bottom: 1em;
+    background-image: url(../img/background_recycle.png);
 }
 
-.recycle main section:nth-of-type(1) {
-    background-color: #4AB3C6;
-    padding: 1em 0;
+.content-op-land{
+    margin-top: 170px;
 }
 
-.recycle main div:nth-of-type(2){
-    background-image: url(../img/p-2_s-2.png);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 256px;  /*img height*/
-    display: flex;
-    justify-content: center;  /* Horizontally center */
-    align-items: center; 
-}
-
-.recycle main div:nth-of-type(2) img{
-    justify-content: center;
-    margin-left:5em;
-}
-
-.recycle main section:nth-of-type(2) {
-    background-color: #2F99AC;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.recycle main div img{
+.img-opruim-tools{
     height: 222px;
     width: 170px;
+    margin-left: 40%;
 }
 
-.recycle main section:nth-of-type(3) {
-    background-color: #298899;
-    padding-top: 1em;
-    padding-bottom: 1em;
+.content-in-het-water{
+    margin-top: 30px;
 }
 
-.recycle main section:nth-of-type(4) {
-    background-color: #1A6876;
-    padding-top: 1em;
-    padding-bottom: 3em;
+.content-microplastic{
+    margin-top: 230px;
+}
+
+.call-to-action{
+    margin-top: 230px;
     display: flex;
-    justify-content: center; 
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
-.recycle main a:visited {
-    color: #13525E;
-}
 
-.recycle main  a {
+.button {
     display: inline-block; 
     padding: 1em 2.7em; 
-    margin-top:2em;
+    margin-top: 2em;
     color: #13525E; 
     font-weight: bold;
     text-decoration: none; 
     background-image: url('../img/bottle_button.png'); 
     background-size: cover;
+    width: 5em;
+    height: 1.7em;
+    margin: 2em auto 0 auto
 }
-.recycle main a:active {
+
+.button:visited {
+    color: #13525E;
+}
+
+.button:active {
     transform: scale(0.80); /* Shrinks the button slightly */
 }
 
 
 /*  Reuse  */
 .reuse{
-    background-color: #2F99AC;
-}
-.reuse main div img{
-    height: 188px;
-    width: 144px;
-}
-.reuse main div:nth-of-type(1) {
-    background-color: #86c9d4;
+    background-image: url(../img/background_reuse.png);
 }
 
-.reuse main div:nth-of-type(2) {
-    background-color: #4AB3C6;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1em 0;
+.first-paragraph-reuse{
+    margin-top: 380px;
 }
 
-.reuse main div:nth-of-type(3){
-    background-image: url(../img/p-3_s-2.png);
-    background-repeat: no-repeat;
-    width: 100vw;
-    display: flex;
-    justify-content: center;  /* Horizontally center */
-    align-items: center; 
-}
-
-.reuse main div:nth-of-type(3) img{
-    justify-content: center;
-}
-
-.reuse main div:nth-of-type(4) {
-    background-color: #2F99AC;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 1em;
-    padding-bottom: 3em;
-}
-
-/* CSS for micro_plastics Background */
-.micro_plastic {
-    position: absolute; /* Allow positioning anywhere */
-    width: 7px; /* Size of micro_plastics */
-    height: 5px;
-    background-color: #D9D9D980;
-    border-radius: 50%; 
-    z-index: 0; /* Ensure micro_plastics stay behind other content */
-}
-
-/* Random positioning using nth-child */
-.micro_plastic:nth-child(1) { 
-    top: 660px; 
-    left: 20%; 
-}
-.micro_plastic:nth-child(2) { 
-    top: 750px; 
-    left: 95%; 
-}
-.micro_plastic:nth-child(3) { 
-    top: 1100px; 
-    left: 18%; 
-}
-.micro_plastic:nth-child(4) { 
-    top: 1305px; 
-    left: 95%; 
-}
-.micro_plastic:nth-child(5) { 
-    top: 1600px; 
-    left: 50%; 
-}
-.micro_plastic:nth-child(6) { 
-    top: 1638px; 
-    left: 10%; 
-}
-.micro_plastic:nth-child(7) { 
-    top: 1970px; 
-    left: 75%; 
-}
-.micro_plastic:nth-child(8) { 
-    top: 2400px; 
-    left: 90%; 
+.content-recycle-process{
+    margin-top: 140px;
+    margin-bottom: 115px;
 }
